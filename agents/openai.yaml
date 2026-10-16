@@ -1,0 +1,14 @@
+interface:
+  display_name: Reporte de Publicidad
+  short_description: Reportes Google Ads en PowerPoint y PDF
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Usa $reporte-de-publicidad para crear un informe de Google Ads del
+    intervalo indicado con los CSV, capturas o tablas adjuntos, en PowerPoint y PDF.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
